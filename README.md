@@ -7,10 +7,10 @@ A C-based system for managing apartment building expenses. It includes modular d
 
 ## 2. Programare în C (facultativ)
 -  *Project 1*: Financial Transaction Management
-    -  Focuses on control structures, functions, and basic algorithms. It demonstrates problem-solving skills in C.
+    -  This project focuses on control structures, functions, and basic algorithms to manage financial transactions. It allows for adding, updating, and viewing transactions such as amount, date, and type, while storing data in text files.
 
 -  *Project 2*: Financial Management
-    -  Explores advanced concepts like arrays and more complex functions, enhancing C programming proficiency.
+    -  This project explores arrays, complex functions, and data management techniques to handle financial accounts and perform various operations, such as tracking expenses and generating reports.
 
 ## Common Concepts
 -  Modular Design 🏗️
