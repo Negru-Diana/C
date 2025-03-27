@@ -7,10 +7,10 @@ A C-based system for managing apartment building expenses. It includes modular d
 
 ## 2. Programare în C (facultativ)
 -  Project 1
-Focuses on control structures, functions, and basic algorithms. It demonstrates problem-solving skills in C.
+    -  Focuses on control structures, functions, and basic algorithms. It demonstrates problem-solving skills in C.
 
 -  Project 2
-Explores advanced concepts like arrays and more complex functions, enhancing C programming proficiency.
+    -  Explores advanced concepts like arrays and more complex functions, enhancing C programming proficiency.
 
 ## Common Concepts
 -  Modular Design 🏗️
