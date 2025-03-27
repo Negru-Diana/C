@@ -1,6 +1,6 @@
 #  💻 C Programming Projects
 
-This repository contains three key C-based projects:
+This repository contains three C-based projects:
 
 ## 1. Apartment Expense Management System (Gestiune Administrație Bloc)
 A C-based system for managing apartment building expenses. It includes modular design, dynamic memory management, CRUD operations, file handling, and error validation within a multi-layered architecture.
