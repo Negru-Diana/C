@@ -7,29 +7,29 @@
 
 The project follows a multi-layered architecture, ensuring clarity, scalability, and maintainability throughout the development process:
 
--  📦 Domain Layer: Contains the core data entities, defining the fundamental components of the system:
+-  📦 **Domain Layer**: Contains the core data entities, defining the fundamental components of the system:
 
       -  Cheltuiala – Represents an expense with attributes such as numar_apartament (apartment number), suma (expense amount), and tip (expense type, e.g., Water, Gas, Maintenance).
 
--  💾 Repository Layer: Responsible for handling data storage and retrieval:
+-  💾 **Repository Layer**: Responsible for handling data storage and retrieval:
 
       -  Implements CRUD (Create, Read, Update, Delete) operations to manage expense data.
 
       -  Uses liste dinamice (dynamic lists) for storing and managing expense records.
 
--  ⚙️ Service Layer: Implements the business logic of the system:
+-  ⚙️ **Service Layer**: Implements the business logic of the system:
 
       -  Manages the addition, updating, and deletion of expenses.
 
       -  Allows sorting and filtering of expenses based on criteria such as apartment number or expense amount.
 
--  🖥️ Console Interface (UI): Provides an interactive user interface via the command line:
+-  🖥️ **Console Interface (UI)**: Provides an interactive user interface via the command line:
 
       -  Offers a simple, menu-driven navigation system for users.
 
       -  Handles input, output, and error management for smooth user interaction.
 
--  ✅ Validation Module: Ensures data integrity and prevents invalid entries:
+-  ✅ **Validation Module**: Ensures data integrity and prevents invalid entries:
 
       -  Validates correct apartment numbers and expense amounts.
 
