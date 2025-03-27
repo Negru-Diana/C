@@ -1,0 +1,30 @@
+diana;Tue Jan 09 21:59:35 2024
+1.4;2.2;2!
+diana;Tue Jan 09 21:59:43 2024
+diana;Tue Jan 09 21:59:35 2024
+1.4;2!
+diana;Tue Jan 09 21:59:43 2024
+diana;Tue Jan 09 21:59:35 2024
+2.2;2!
+diana;Tue Jan 09 21:59:43 2024
+diana;Tue Jan 09 22:58:43 2024
+3;1!
+diana;Tue Jan 09 22:58:50 2024
+diana;Tue Jan 09 23:00:14 2024
+0!
+diana;Tue Jan 09 23:00:20 2024
+diana;Tue Jan 09 23:02:55 2024
+0!
+diana;Tue Jan 09 23:03:01 2024
+negruDiana;Wed Jan 10 09:56:07 2024
+0!
+negruDiana;Wed Jan 10 09:56:16 2024
+dianaNegru;Wed Jan 10 10:07:02 2024
+0!
+dianaNegru;Wed Jan 10 10:07:07 2024
+diana;Wed Jan 10 10:14:38 2024
+0!
+diana;Wed Jan 10 10:15:33 2024
+diana;Wed Jan 10 10:14:38 2024
+0!
+diana;Wed Jan 10 10:15:33 2024
