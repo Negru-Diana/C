@@ -1,6 +1,6 @@
 # 🏢 Apartment Expense Management System
 
-*"Gestiune Administrație Bloc"* is a C-based application designed to manage apartment building expenses efficiently. It follows a multi-layered architecture, ensuring scalability, modularity, and maintainability, while applying Object-Oriented Programming (OOP) principles in C.
+*"Gestiune Administrație Bloc"* is a C-based application designed to manage apartment building expenses efficiently.
 
 
 ## 🏗️ Architecture Overview
@@ -33,7 +33,7 @@ The project follows a multi-layered architecture, ensuring clarity, scalability,
 
       -  Validates correct apartment numbers and expense amounts.
 
-      -  Prevents the addition or deletion of non-existent records.
+      -  Prevents the addition of existent records or deletion of non-existent records.
 
 ## 🗂️ Data Persistence
 The system employs a file-based data storage approach, making it easy to implement and maintain:
