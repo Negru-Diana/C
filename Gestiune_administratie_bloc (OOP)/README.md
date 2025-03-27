@@ -5,59 +5,66 @@
 
 ## 🏗️ Architecture Overview
 
-The project follows a layered architecture, ensuring clarity, scalability, and maintainability throughout the development process:
+The project follows a multi-layered architecture, ensuring clarity, scalability, and maintainability throughout the development process:
 
--  📦 Domain Layer – Core Data Structures
-Defines the essential business entities of the application:
+-  📦 Domain Layer: Contains the core data entities, defining the fundamental components of the system:
 
-    - Cheltuiala – Represents an expense, consisting of:
-        -  numar_apartament – The apartment number associated with the expense.
+      -  Cheltuiala – Represents an expense with attributes such as numar_apartament (apartment number), suma (expense amount), and tip (expense type, e.g., Water, Gas, Maintenance).
 
-        -  suma – The amount of the expense.
+-  💾 Repository Layer: Responsible for handling data storage and retrieval:
 
-        -  tip – The type of expense (e.g., Water, Gas, Maintenance).
+      -  Implements CRUD (Create, Read, Update, Delete) operations to manage expense data.
 
-💾 Repository Layer – Data Storage & Management
-Handles all data storage and retrieval operations:
+      -  Uses liste dinamice (dynamic lists) for storing and managing expense records.
 
-✔️ Implements CRUD (Create, Read, Update, Delete) operations.
-🗂️ Uses liste dinamice for storing and managing expenses.
-⚙️ Optimizes memory usage with malloc/free to ensure efficient performance.
+-  ⚙️ Service Layer: Implements the business logic of the system:
 
-⚙️ Service Layer – Business Logic Implementation
-Implements the core functionalities of the system:
+      -  Manages the addition, updating, and deletion of expenses.
 
-🔹 Adding, updating, and deleting expenses ✏️.
-🔹 Sorting expenses 🔄 (e.g., by amount, apartment number).
-🔹 Filtering expenses 🔍 based on specific parameters.
-🔹 Undo Feature ↩️ – Allows users to revert the last action.
+      -  Allows sorting and filtering of expenses based on criteria such as apartment number or expense amount.
 
-🖥️ User Interface (UI) – Command-Line Interface
-A menu-driven CLI interface:
+-  🖥️ Console Interface (UI): Provides an interactive user interface via the command line:
 
-🎯 Simple and intuitive navigation.
-📊 Real-time feedback for executed operations.
-🛑 Input validation and error handling to prevent invalid actions.
+      -  Offers a simple, menu-driven navigation system for users.
 
-✅ Data Validation & Error Handling
-Ensures data integrity and system reliability:
+      -  Handles input, output, and error management for smooth user interaction.
 
-✔️ Validates apartment numbers and expense amounts.
-❌ Prevents invalid operations (e.g., deleting non-existent expenses).
-💡 Manages memory efficiently to avoid memory leaks.
-🛠️ Handles incorrect user inputs gracefully to ensure smooth operation.
+-  ✅ Validation Module: Ensures data integrity and prevents invalid entries:
 
-🌟 Key Features
-🔹 Modular, Multi-Layered Architecture 🏗️ – Ensures clean, maintainable code.
-🔹 Full Expense Management System 📝 – Supports full CRUD operations.
-🔹 Sorting & Filtering 🔍 – Easily retrieve expenses based on various criteria.
-🔹 Undo Feature ↩️ – Allows reverting the last action for better control.
-🔹 Dynamic Memory Management 🧠 – Uses malloc/free for optimal performance.
-🔹 Robust Error Handling 🛡️ – Ensures correct input and prevents unexpected behavior.
+      -  Validates correct apartment numbers and expense amounts.
 
-🔬 Technical Highlights
-🖥️ Language: C
-🛠 Architecture: Multi-layered (Domain, Repository, Service, UI)
-📂 Data Management: Uses liste dinamice (no database required).
-⚡ Memory Management: Efficient allocation and deallocation with malloc/free.
-🚀 Performance Optimizations: Sorting and filtering for fast data retrieval.
+      -  Prevents the addition or deletion of non-existent records.
+
+## 🗂️ Data Persistence
+The system employs a file-based data storage approach, making it easy to implement and maintain:
+
+-  *cheltuieli.txt* — Stores expense records.
+
+-  *apartamente.txt* — Contains apartment data, including apartment numbers and associated expenses.
+
+## 🌟 Key Features
+-  🎯 **Modular Design**: The multi-layered architecture ensures clear separation of concerns, improving both code comprehension and maintainability.
+
+-  🔍 **Input Validation**: Strong validation rules ensure the integrity and consistency of user data, preventing errors and inconsistencies.
+
+-  📤 **Full CRUD Functionality**: Supports full lifecycle management for expenses, providing a complete solution for tracking apartment building expenses.
+
+-  📑 **Sorting & Filtering**: Advanced query options allow users to filter and sort expenses, making it easier to find specific records.
+
+-  🛠️ **Efficient Memory Management**: Uses malloc and free for dynamic memory allocation, ensuring optimal system performance and avoiding memory leaks.
+
+-  🛡️ **Robust Error Handling**: The system is built to gracefully handle errors, ensuring stability even when faced with invalid inputs or unexpected scenarios.
+
+## 🔬 Technical Highlights
+-  **Language**: C
+
+-  **Architecture**: Multi-layered architecture (Domain, Repository, Service, UI)
+
+-  **Data Persistence**: File-based system using text files for storing records
+
+-  **Memory Management**: Efficient use of malloc and free for dynamic memory allocation
+
+-  **Error Management**: Comprehensive input validation and exception handling
+
+
+
