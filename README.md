@@ -6,10 +6,10 @@ This repository contains three key C-based projects:
 A C-based system for managing apartment building expenses. It includes modular design, dynamic memory management, CRUD operations, file handling, and error validation within a multi-layered architecture.
 
 ## 2. Programare în C (facultativ)
--  Project 1
+-  *Project 1*:
     -  Focuses on control structures, functions, and basic algorithms. It demonstrates problem-solving skills in C.
 
--  Project 2
+-  *Project 2*:
     -  Explores advanced concepts like arrays and more complex functions, enhancing C programming proficiency.
 
 ## Common Concepts
