@@ -16,13 +16,6 @@
 
 -  🛡️ **Robust Error Handling**: The system is built to gracefully handle errors, ensuring stability even when faced with invalid inputs or unexpected scenarios.
 
-## 🗂️ Data Persistence
-The system employs a file-based data storage approach, making it easy to implement and maintain:
-
--  *cheltuieli.txt* — Stores expense records.
-
--  *apartamente.txt* — Contains apartment data, including apartment numbers and associated expenses.
-
 
 
 ## 🔬 Technical Highlights
